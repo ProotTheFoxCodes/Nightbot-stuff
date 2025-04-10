@@ -1,1 +1,0 @@
-c3 = three[Math.floor(Math.random() * responses.length)]; const c4 = four[Math.floor(Math.random() * responses.length)]; const c5 = five[Math.floor(Math.random() * responses.length)]; const c6 = six[Math.floor(Math.random() * responses.length)]; concat(c1, c2, c3, c4, c5, c6);
