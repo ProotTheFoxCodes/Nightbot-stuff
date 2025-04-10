@@ -1,1 +1,0 @@
-const one = ['^', 'ฅ^', '₍ᐢ']; const two = ['-', '≽', '•', '･']; const three = ['_', 'ܫ', 'o']; const four = ['^', '^ฅ',  '•', '･',  '^']; const five = ['-^', 'ᐢ₎']; const six = ['','','_.', '/']; const c1 = one[Math.floor(Math.random() * responses.length)]; const c2 = two[Math.floor(Math.random() * responses.length)]; const 
