@@ -3,7 +3,7 @@ if (deltr.includes("month")) {
 deltr.slice(0,15) + "of";
 } else {
   if (deltr.charAt(0) == "7"; {
-    "https://www.youtube.com/shorts/lF8nYw8EGgI"
+    return "https://www.youtube.com/shorts/lF8nYw8EGgI";
   } else {
 deltr.slice(0,2);
 }
