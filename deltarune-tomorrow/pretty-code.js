@@ -6,4 +6,3 @@ deltr.slice(0,15) + "of";
   } else {
 deltr.slice(0,2);
 }
-)
