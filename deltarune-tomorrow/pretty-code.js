@@ -1,4 +1,4 @@
-const deltr = "$(countdown June 5 2025 12:00:00 AM Etc/GMT-4)";
+const deltr = "$(countdown June 5 2025 0:00:00 AM Etc/GMT+9)";
 if (deltr.includes("month")) {
 deltr.slice(0,15) + "of";
 } else if (deltr.charAt(0) == 7) {
