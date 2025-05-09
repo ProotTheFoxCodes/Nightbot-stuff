@@ -1,0 +1,5 @@
+  } else if ((deltr.charAt(0) <= 3) || !(deltr.includes("day"))) {
+    "$(countdown June 5 2025 0:00:00 AM Etc/GMT+9)";
+} else {
+deltr.slice(0,2) + "tommorows";
+}
