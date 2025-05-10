@@ -1,10 +1,12 @@
-const deltr = "$(countdown June 5 2025 0:00:00 AM Etc/GMT+9)";
-if (deltr.includes("month")) {
-deltr.slice(0,15) + "of tommorows";
-} else if ((deltr.charAt(0) == 7) && deltr.includes("day")){
-    "https://www.youtube.com/shorts/lF8nYw8EGgI";
-  } else if ((deltr.charAt(0) <= 3) || !(deltr.includes("day"))) {
-    "$(countdown June 5 2025 0:00:00 AM Etc/GMT+9)";
-} else {
-deltr.slice(0,2) + "tommorows";
+() => { 
+    const deltr = "$(countdown June 5 2025 0:00:00 AM Etc/GMT+9)";
+    if ((parseInt(deltr.charAt(0)) <= 3) || (!deltr.includes("day"))) {
+        return deltr; 
+    } else if(deltr.includes("month")) {
+        return deltr.slice(0, 15) + " of tomorrows"; 
+    } else if ((deltr.charAt(0) == "7") && deltr.includes("day")) {
+        return "https://www.youtube.com/shorts/lF8nYw8EGgI"; 
+    } else { 
+        return deltr.slice(0, 2) + " tomorrows"; 
+    }
 }
